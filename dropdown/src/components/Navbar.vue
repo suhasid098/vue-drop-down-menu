@@ -39,7 +39,8 @@ nav {
   justify-content: left;
 }
 nav .menu-item {
-  color: #FFF;
+  color: #71bfed;
+  background-color: rgb(79, 76, 76);
   padding: 10px 20px;
   position: relative;
   text-align: center;
@@ -49,7 +50,7 @@ nav .menu-item {
 }
 nav .menu-item.active,
 nav .menu-item:hover {
-  background-color: #444;
+  background-color: rgb(39, 38, 38);
   border-bottom-color: #71bfed;
 }
 nav .menu-item a {
