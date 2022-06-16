@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <Dropdown title="Services" :items="services" />
+    <Dropdown title="Level" :items="levels" />
   </nav>
 </template>
 
@@ -13,17 +13,17 @@ export default {
   },
   data () {
     return {
-      services: [
+      levels: [
         {
-          title: 'Web',
+          title: 'Beginner',
           link: '#'
         },
         {
-          title: 'Design',
+          title: 'Expert',
           link:'#'
         },
         {
-          title: 'Videos',
+          title: 'Original',
           link: '#'
         }
       ]
