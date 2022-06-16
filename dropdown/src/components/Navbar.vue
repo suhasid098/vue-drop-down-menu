@@ -36,7 +36,7 @@ export default {
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 nav .menu-item {
   color: #FFF;
@@ -50,7 +50,7 @@ nav .menu-item {
 nav .menu-item.active,
 nav .menu-item:hover {
   background-color: #444;
-  border-bottom-color: #FF5858;
+  border-bottom-color: #71bfed;
 }
 nav .menu-item a {
   color: inherit;
